@@ -99,7 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 114a21e18a81386458fd84a3dd57b9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coin: {fileID: 3355830833899672962, guid: 12c4d43f1ab1bd146b2577ee88a49784, type: 3}
   moveSpeed: 5
+  hp: 1
 --- !u!58 &334756338965467451
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -132,9 +134,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.1}
+  m_Offset: {x: 0, y: -0.5}
   serializedVersion: 2
-  m_Radius: 0.32316005
+  m_Radius: 2.2154632
 --- !u!50 &8200605650556583215
 Rigidbody2D:
   serializedVersion: 4
